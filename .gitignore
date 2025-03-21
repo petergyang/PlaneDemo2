@@ -3,7 +3,7 @@ node_modules/
 PlaneDemo3/
 
 # Build and distribution directories
-dist/
+# dist/ - we need this for GitHub Pages
 build/
 out/
 

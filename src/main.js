@@ -21,9 +21,9 @@ function setupBackgroundMusic() {
     
     // Load the sound file
     const audioLoader = new THREE.AudioLoader();
-    console.log('Loading audio file: /audio/battle.mp3');
+    console.log('Loading audio file: /assets/audio/battle.mp3');
     audioLoader.load(
-        '/audio/battle.mp3',
+        '/assets/audio/battle.mp3',
         function(buffer) {
             console.log('Audio loaded successfully!');
             backgroundMusic.setBuffer(buffer);
