@@ -1,0 +1,20 @@
+{
+  "name": "plane-game",
+  "version": "1.0.0",
+  "description": "3D plane game where you shoot down UFOs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.6.0",
+    "copy-webpack-plugin": "^12.0.2"
+  }
+} 
